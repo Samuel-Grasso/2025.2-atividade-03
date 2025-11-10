@@ -26,6 +26,12 @@ table {
     border-radius: 8px;
     overflow: hidden;
 }
+tbody tr:nth-child(odd) { 
+      background-color: #99acff;
+    }
+tbody tr:nth-child(even) { 
+      background-color: #d6adff;
+    }
 
 thead {
     background-color: #1d52e4;
